@@ -1,0 +1,21 @@
+name: pantheon
+version: "0.1.0"
+manifest_version: 2
+api_version: 1
+description: "A small Greek god in your terminal tab that shows what Hermes is doing: working, waiting on you, or idle. Hephaestus by default; /summon another."
+author: "eightyFJ"
+license: MIT
+homepage: https://github.com/eightyFJ/hermes-pantheon
+requires_hermes: ">=0.23.3"
+tags: [terminal, tab-title, status, fun]
+provides_tools:
+  - set_tab_title
+provides_hooks:
+  - pre_llm_call
+  - on_session_end
+  - on_human_input_request
+  - on_human_input_resolved
+  - on_session_finalize
+config_schema:
+  god: {type: str, default: "hephaestus", description: "Default god (any name from /summon, e.g. hephaestus, zeus, selene). /summon overrides it."}
+  naming_tool: {type: bool, default: false, description: "Give the model a set_tab_title tool. Off by default: Hermes already auto-titles sessions."}

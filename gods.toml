@@ -1,0 +1,160 @@
+[hephaestus]
+name = "Hephaestus"
+epithet = "smith of the gods"
+working = { frames = ["🔨💥", "🔨✨", "🔨🔥"], ms = 260, phrase = "forging…" }
+waiting = { frames = ["🔨❔"], phrase = "awaits your word" }
+idle = { frames = ["🔨🔥", "🔨🪵"], ms = 1400, phrase = "forge cooling" }
+
+[hermes]
+name = "Hermes"
+epithet = "messenger of the gods"
+working = { frames = ["🪽📜", "🪽💨"], ms = 300, phrase = "in flight…" }
+waiting = { frames = ["📜❔"], phrase = "has a message for you" }
+idle = { frames = ["🪽"], phrase = "resting" }
+
+[athena]
+name = "Athena"
+epithet = "goddess of wisdom"
+working = { frames = ["🦉💭", "🦉✨"], ms = 600, phrase = "thinking…" }
+waiting = { frames = ["🦉❔"], phrase = "watches you" }
+idle = { frames = ["🦉"], phrase = "keeps watch" }
+
+[iris]
+name = "Iris"
+epithet = "bearer of the oath-water"
+working = { frames = ["🏺💧", "🏺💦"], ms = 350, phrase = "pouring…" }
+waiting = { frames = ["🏺❔"], phrase = "swear to it?" }
+idle = { frames = ["🏺"], phrase = "wings folded" }
+
+[kronos]
+name = "Kronos"
+epithet = "titan of time"
+working = { frames = ["⏳", "⌛"], ms = 500, phrase = "turning the glass…" }
+waiting = { frames = ["⌛❔"], phrase = "stops the sand" }
+idle = { frames = ["🕰️"], phrase = "time rests" }
+
+[hestia]
+name = "Hestia"
+epithet = "keeper of the hearth"
+working = { frames = ["🔥✨", "🔥💫"], ms = 300, phrase = "tending the flame…" }
+waiting = { frames = ["🔥❔"], phrase = "flares for you" }
+idle = { frames = ["🔥"], phrase = "embers banked" }
+
+[hypnos]
+name = "Hypnos"
+epithet = "god of sleep"
+working = { frames = ["🥱", "😪"], ms = 700, phrase = "grumbling, working…" }
+waiting = { frames = ["👁️"], phrase = "one eye open" }
+idle = { frames = ["😴💤"], phrase = "asleep" }
+
+[pan]
+name = "Pan"
+epithet = "god of the wild"
+working = { frames = ["🐐🎶", "🐐🎵"], ms = 400, phrase = "piping…" }
+waiting = { frames = ["🐐❔"], phrase = "ears up" }
+idle = { frames = ["🐐"], phrase = "napping" }
+
+[zeus]
+name = "Zeus"
+epithet = "king of the gods"
+working = { frames = ["⚡🌩", "🌩⚡"], ms = 350, phrase = "hurling bolts…" }
+waiting = { frames = ["⚡❔"], phrase = "thunder waits on you" }
+idle = { frames = ["☁️"], phrase = "clouds gather" }
+
+[poseidon]
+name = "Poseidon"
+epithet = "lord of the sea"
+working = { frames = ["🔱🌊", "🌊🔱"], ms = 450, phrase = "stirring the sea…" }
+waiting = { frames = ["🔱❔"], phrase = "trident raised" }
+idle = { frames = ["🐚"], phrase = "tide out" }
+
+[apollo]
+name = "Apollo"
+epithet = "god of music and light"
+working = { frames = ["🪕🎵", "🪕🎶"], ms = 400, phrase = "playing the lyre…" }
+waiting = { frames = ["🪕❔"], phrase = "the song pauses" }
+idle = { frames = ["🌞"], phrase = "basking" }
+
+[artemis]
+name = "Artemis"
+epithet = "the huntress"
+working = { frames = ["🏹🎯", "🏹💨"], ms = 350, phrase = "on the hunt…" }
+waiting = { frames = ["🏹❔"], phrase = "bow drawn" }
+idle = { frames = ["🌙"], phrase = "under the moon" }
+
+[ares]
+name = "Ares"
+epithet = "god of war"
+working = { frames = ["🛡💥", "🗡💥"], ms = 300, phrase = "in battle…" }
+waiting = { frames = ["🛡❔"], phrase = "awaits your orders" }
+idle = { frames = ["🛡"], phrase = "on guard" }
+
+[aphrodite]
+name = "Aphrodite"
+epithet = "goddess of love"
+working = { frames = ["💘✨", "💘💫"], ms = 400, phrase = "charming…" }
+waiting = { frames = ["💌❔"], phrase = "sends you a note" }
+idle = { frames = ["🐚"], phrase = "in her shell" }
+
+[dionysus]
+name = "Dionysus"
+epithet = "god of wine"
+working = { frames = ["🍇🍷", "🍷🍇"], ms = 450, phrase = "pouring wine…" }
+waiting = { frames = ["🍷❔"], phrase = "raises a glass to you" }
+idle = { frames = ["🍷"], phrase = "toasting" }
+
+[demeter]
+name = "Demeter"
+epithet = "goddess of the harvest"
+working = { frames = ["🌱", "🌿", "🌾"], ms = 500, phrase = "growing…" }
+waiting = { frames = ["🌾❔"], phrase = "the harvest waits" }
+idle = { frames = ["🌾"], phrase = "harvest in" }
+
+[hades]
+name = "Hades"
+epithet = "lord of the underworld"
+working = { frames = ["💀🔥", "💀💨"], ms = 400, phrase = "stoking the underworld…" }
+waiting = { frames = ["🐕❔"], phrase = "Cerberus waits" }
+idle = { frames = ["💀"], phrase = "still as stone" }
+
+[persephone]
+name = "Persephone"
+epithet = "queen of spring"
+working = { frames = ["🌸🌱", "🌱🌸"], ms = 450, phrase = "bringing spring…" }
+waiting = { frames = ["🌸❔"], phrase = "blooms for you" }
+idle = { frames = ["🍎"], phrase = "the pomegranate" }
+
+[nike]
+name = "Nike"
+epithet = "goddess of victory"
+working = { frames = ["🏃💨", "🪽💨"], ms = 300, phrase = "racing…" }
+waiting = { frames = ["🏅❔"], phrase = "medal waiting" }
+idle = { frames = ["🏆"], phrase = "victorious" }
+
+[selene]
+name = "Selene"
+epithet = "goddess of the moon"
+working = { frames = ["🌒", "🌓", "🌔", "🌕"], ms = 450, phrase = "waxing…" }
+waiting = { frames = ["🌕❔"], phrase = "full moon, waiting" }
+idle = { frames = ["🌙"], phrase = "night falls" }
+
+[eros]
+name = "Eros"
+epithet = "god of desire"
+working = { frames = ["🏹💘", "💘💫"], ms = 400, phrase = "taking aim…" }
+waiting = { frames = ["💘❔"], phrase = "heart in hand" }
+idle = { frames = ["💤"], phrase = "dozing" }
+
+[prometheus]
+name = "Prometheus"
+epithet = "the fire-bringer"
+working = { frames = ["🔥🏃", "🏃🔥"], ms = 350, phrase = "stealing fire…" }
+waiting = { frames = ["🔥❔"], phrase = "holds the flame out" }
+idle = { frames = ["🪨"], phrase = "chained to the rock" }
+
+[atlas]
+name = "Atlas"
+epithet = "who holds up the sky"
+working = { frames = ["🌍💦", "🌏💦"], ms = 500, phrase = "holding the sky…" }
+waiting = { frames = ["🌍❔"], phrase = "shoulders the world" }
+idle = { frames = ["🌍"], phrase = "the world rests" }
