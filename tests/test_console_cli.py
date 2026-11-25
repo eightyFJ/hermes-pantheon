@@ -67,16 +67,16 @@ def windows_console(monkeypatch, kernel32):
 def test_console_title_on_windows_restores_the_original(monkeypatch):
     kernel32 = FakeKernel32()
     title = windows_console(monkeypatch, kernel32)
-    title.set("🔨✨ hermes")
+    title.set("🔨✨ Hermes")
     title.restore()
-    assert kernel32.titles == ["🔨✨ hermes", "PowerShell"]
+    assert kernel32.titles == ["🔨✨ Hermes", "PowerShell"]
 
 
 def test_console_title_without_an_original_restores_hermes(monkeypatch):
     kernel32 = FakeKernel32(original="")
     title = windows_console(monkeypatch, kernel32)
     title.restore()
-    assert kernel32.titles == ["hermes"]
+    assert kernel32.titles == ["Hermes"]
 
 
 def test_console_title_without_a_windows_console_falls_back_to_the_tty(monkeypatch):

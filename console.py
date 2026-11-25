@@ -6,7 +6,7 @@ import os
 import threading
 from collections.abc import Sequence
 
-from .title import compose
+from .title import DEFAULT_LABEL, compose
 
 
 class ConsoleTitle:
@@ -41,7 +41,7 @@ class ConsoleTitle:
             pass
 
     def restore(self) -> None:
-        self.set(self._original if self._original is not None else "hermes")
+        self.set(self._original if self._original is not None else DEFAULT_LABEL)
 
 
 class Animator:

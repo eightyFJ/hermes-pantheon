@@ -18,7 +18,7 @@ def test_clean_label_truncates_with_an_ellipsis():
 
 def test_compose_joins_frame_and_label():
     assert compose("🔨✨", "Fix the build") == "🔨✨ Fix the build"
-    assert compose("🔨✨", "") == "🔨✨ hermes"
+    assert compose("🔨✨", "") == "🔨✨ Hermes"
     assert compose("", "x") == "x"
     assert "\x1b" not in compose("\x1b]0;", "t")
 
@@ -77,7 +77,7 @@ def test_payload_shape(tracked):
 def test_unlabelled_sessions_show_hermes(tracked):
     tracker, events = tracked
     tracker.working("s1")
-    assert events[-1][1]["label"] == "hermes"
+    assert events[-1][1]["label"] == "Hermes"
 
 
 def test_wait_end_for_an_unknown_session_is_ignored(tracked):

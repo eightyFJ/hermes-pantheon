@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 import unicodedata
 
-DEFAULT_LABEL = "hermes"
+DEFAULT_LABEL = "Hermes"
 MAX_LABEL = 28
 
 _CONTROL_RE = re.compile(r"[\x00-\x1f\x7f-\x9f]")
